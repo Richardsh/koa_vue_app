@@ -3,7 +3,7 @@ const router = new Router()
 
 router.get('/v1/classic/latest', (ctx, next) => {
 	ctx.body = {
-		key: 'classic'
+		key: 'classic_new'
 	}
 })
 
