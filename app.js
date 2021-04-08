@@ -8,7 +8,7 @@ requireDirectory(module, './api', {visit:whenLoadModule});
 
 function whenLoadModule(obj) {
     if(obj instanceof Router){
-        console.log(obj)
+        console.log('obj', obj)
         app.use(obj.routes())
     }
 }
