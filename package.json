@@ -12,6 +12,7 @@
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
     "lodash": "^4.17.11",
     "module-alias": "^2.2.0",
     "mysql2": "^1.6.5",
@@ -35,7 +36,6 @@
   ],
   "author": "7yue",
   "license": "MIT",
-  "devDependencies": {},
   "_moduleAliases": {
     "@root": ".",
     "@models": "app/models",
